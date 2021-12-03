@@ -1,0 +1,63 @@
+<div class="fundo">
+    <p><u>Home</u></p>
+    <div class="titulo">
+        <p><u>CASACOS</u></p>
+        <div class="caixaProdutos" *ngFor="let casacos of casacos">
+            <img [src]="casacos.imagem">
+            <p>{{casacos.descricao}}</p>
+            <p>{{casacos.valor}}</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <p><u>CAMISAS</u></p>
+        <div class="caixaProdutos" *ngFor="let camisas of camisas">
+            <img [src]="camisas.imagem">
+            <p>{{camisas.descricao}}</p>
+            <p>{{camisas.valor}}</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <p><u>CALÇAS</u></p>
+        <div class="caixaProdutos" *ngFor="let calcas of calcas">
+            <img [src]="calcas.imagem">
+            <p>{{calcas.descricao}}</p>
+            <p>{{calcas.valor}}</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <p><u>BERMUDAS</u></p>
+        <div class="caixaProdutos" *ngFor="let bermudas of bermudas">
+            <img [src]="bermudas.imagem">
+            <p>{{bermudas.descricao}}</p>
+            <p>{{bermudas.valor}}</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <p><u>TÊNIS</u></p>
+        <div class="caixaProdutos" *ngFor="let tenis of tenis">
+            <img [src]="tenis.imagem">
+            <p>{{tenis.descricao}}</p>
+            <p>{{tenis.valor}}</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <p><u>ROUPAS ÍNTIMAS</u></p>
+        <div class="caixaProdutos" *ngFor="let roupasIntimas of roupasIntimas">
+            <img [src]="roupasIntimas.imagem">
+            <p>{{roupasIntimas.descricao}}</p>
+            <p>{{roupasIntimas.valor}}</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </div>
+    </div>
+</div>
+<div style="height:2500px"></div>

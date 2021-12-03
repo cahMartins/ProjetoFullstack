@@ -1,0 +1,30 @@
+<div class="text-center">
+    <h1>CADASTRO CLIENTE</h1>
+    <form (ngSubmit)="salvar()" [formGroup]="form">
+    <label for="clienteNome">Nome:</label> <br/>
+    <input type="text" id="clienteNome" formControlName="nomeFormControl"> <br/>
+    <label for="clienteEmail">E-Mail:</label> <br/>
+    <input type="text" id="clienteEmail" formControlName="emailFormControl"> <br/>
+    <label for="clienteCPF">CPF:</label> <br/>
+    <input type="text" id="clienteCPF" formControlName="cpfFormControl"> <br/>
+    <label for="clienteSenha">Senha:</label> <br/>
+    <input type="password" id="clienteSenha" formControlName="senhaFormControl"> <br/>
+    <label for="clienteDataNascimeto">Data de Nascimento:</label> <br/>
+    <input type="date" id="clienteDataNascimeto" formControlName="dataNascimetoFormControl"> <br/>
+    <label for="clienteRua">Rua:</label> <br/>
+    <input type="text" id="clienteRua" formControlName="ruaFormControl"> <br/>
+    <label for="clienteNumero">Numero:</label> <br/>
+    <input type="number" id="clienteNumero" formControlName="numeroFormControl"> <br/>
+    <label for="clienteComplemento">Complemento:</label> <br/>
+    <input type="text" id="clienteComplemento" formControlName="complementoFormControl"> <br/>
+    <label for="clienteBairro">Bairro:</label> <br/>
+    <input type="text" id="clienteBairro" formControlName="bairroFormControl"> <br/>
+    <label for="clienteCidade">Cidade:</label> <br/>
+    <input type="text" id="clienteCidade" formControlName="cidadeFormControl"> <br/>
+    <label for="clienteCep">Cep:</label> <br/>
+    <input type="number" id="clienteCep" formControlName="cepFormControl"> <br/>
+    <br/>   
+    <input type="submit" class="btn btn-outline-primary" value="CADASTRAR">
+</form>
+</div>
+<div style="height:200px"></div>

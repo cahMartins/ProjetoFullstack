@@ -1,0 +1,16 @@
+<div class="text-center">
+    <form (ngSubmit)="logar()" [formGroup]="form">
+        <h1>LOGIN</h1>
+        
+        <label for="inputEmail">Usuário</label><br/>
+        <input type="text" id="inputEmail" formControlName="emailFormControl"><br/>
+        <label for="inputSenha">Senha</label><br/>
+        <input type="password" id="inputSenha" formControlName = "senhaFormControl"><br/>
+        <br/>
+        <input type="submit" class="btn btn-outline-primary" value="ENTRAR">
+    </form>
+    <form (ngSubmit)="cadastrar()" [formGroup]="form">
+    <input type="submit" class="btn btn-outline-primary" value="CADASTRAR">
+    </form>
+    <!-- <a href="#" class="btn btn-outline-primary" [routerLink]="['/cadastro']">CADASTRAR</a> -->
+</div>
